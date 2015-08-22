@@ -3,6 +3,11 @@ var fs = require('fs');
 
 var credit = "kevin";
 module.exports = {
+	neuralnet: function(inputs,outputs,perlayer,numlayers)
+	{
+		var network = new NeuralNetwork(inputs,outputs,perlayer,numlayers,false,true);
+		return network;
+	},
 	credit: function() {
 		return credit;
 	},
