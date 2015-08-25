@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/kano.svg)](http://badge.fury.io/js/kano)
+
 How to use:
 
 var kano = require("kano")
