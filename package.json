@@ -1,6 +1,6 @@
 {
   "name": "kano",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates a neural network and can handle backprop",
   "main": "index.js",
   "scripts": {
