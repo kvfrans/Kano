@@ -1,13 +1,18 @@
+
 [![npm version](https://badge.fury.io/js/kano.svg)](http://badge.fury.io/js/kano)
 
-How to use:
+###Installation
+```npm install kano```
 
+###Usage
+
+```
 var kano = require("kano")
 
 var network = kano.neuralnet(numInputs,numOutputs,neuronsPerLayer,numLayers);
 
 var result = network.forward(arrayOfInnputs)
-
+```
 Highly reccomend sigmoiding the result of the neural network.
 
 Training:
